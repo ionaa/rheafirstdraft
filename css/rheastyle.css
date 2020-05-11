@@ -22,7 +22,7 @@ header {
 h1,
 h2,
 h3 {
-  font-family: moderno-fb-condensed, serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -69,7 +69,7 @@ nav img {
 
 .current {
   color: #3a3a3a;
-  font-family: moderno-fb-condensed, serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 0.95em;
@@ -80,7 +80,7 @@ nav img {
 }
 
 .navigation {
-  font-family: titular, sans-serif;
+  font-family: sans;
   font-style: normal;
   font-weight: 200;
   font-size: 1.7em;
@@ -154,7 +154,7 @@ nav img {
   background: #3a3a3a;
   box-shadow: 1px 1px 6px 2px #888888;
   color: white;
-  font-family: moderno-fb-condensed, serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1em;
@@ -256,7 +256,7 @@ select {
   box-sizing: border-box;
   background-color: #3a3a3a;
   color: white;
-  font-family: titular, sans-serif;
+  font-family: sans;
   font-style: normal;
   font-weight: 200;
   font-size: 1.3em;
@@ -267,7 +267,7 @@ select {
 }
 
 #appconfirm {
-  font-family: titular, sans-serif;
+  font-family: sans;
   font-style: normal;
   font-weight: 200;
   font-size: 2em;
