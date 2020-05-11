@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.rhealogo {
+  max-height: 2.5em;
+  margin-left: 3em;
+}
+
+.rhealogo:hover {
+  opacity: 0.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: moderno-fb-condensed, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2em;
+  padding-left: 1em;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-family: ivymode, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+nav {
+  /*math*/
+}
+nav ul {
+  list-style: none;
+  padding-right: 2em;
+}
+nav li {
+  margin: 0.6em;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #575757;
+}
+nav img {
+  max-height: 1.5em;
+}
+
+.navigation a:hover {
+  color: #0F7A6A;
+}
+
+.current {
+  color: #3a3a3a;
+  font-family: moderno-fb-condensed, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.95em;
+}
+
+.social a:hover {
+  opacity: 0.5;
+}
+
+.navigation {
+  font-family: titular, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.7em;
+}
+
+.mainimagehome {
+  max-width: 100%;
+  padding-top: 1em;
+  padding-bottom: 0.85em;
+  opacity: 1;
+}
+
+.prices {
+  padding-bottom: 1em;
+  padding-left: 0.2em;
+}
+
+.row {
+  background-color: #f5f0f2;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px 1px;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+
+.coltitle {
+  grid-column: span 3;
+}
+
+.col1 {
+  grid-column: span 3;
+}
+
+.col10, .col9, .col8, .col7, .col6, .col5, .col4, .col3, .col2 {
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomwrapper2, .bottomwrapper {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.bottomwrapper {
+  background-color: #f5f0f2;
+  border-radius: 97% 97% 0 0;
+}
+
+.bottomwrapper h2 {
+  padding-top: 1em;
+}
+
+.col1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.75em;
+  padding-bottom: 2em;
+}
+
+.button {
+  display: inline;
+  text-decoration: none;
+  background: #3a3a3a;
+  box-shadow: 1px 1px 6px 2px #888888;
+  color: white;
+  font-family: moderno-fb-condensed, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  padding: 7px 5px 5px 5px;
+}
+.button:hover {
+  background-color: #0F7A6A;
+}
+
+.mobilemenu {
+  display: none;
+  padding-left: 2em;
+}
+.mobilemenu ul {
+  list-style: none;
+  padding-right: 2em;
+}
+.mobilemenu li {
+  margin: 0.6em;
+  display: inline-block;
+}
+.mobilemenu a {
+  text-decoration: none;
+  color: #575757;
+}
+
+.mobbtn {
+  display: none;
+  padding-left: 1em;
+}
+
+.info {
+  background-color: #3a3a3a;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4px;
+  justify-content: center;
+  /*Sass Function*/
+  padding-bottom: 4em;
+  padding-top: 2em;
+}
+.info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  color: #fcfcfc;
+}
+.info h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: #3a3a3a;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+footer h3, footer p {
+  color: white;
+  padding-bottom: 1em;
+}
+
+picture img {
+  opacity: 0.4;
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0.5em;
+  /*Sass Function*/
+  padding-bottom: 6em;
+  padding-top: 2em;
+}
+
+.wrapper2 {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #f5f0f2;
+}
+
+input[type=text],
+input[type=email],
+input[type=submit],
+select {
+  width: 300px;
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3a3a3a;
+  color: white;
+  font-family: titular, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+.appheader {
+  padding-top: 1em;
+}
+
+#appconfirm {
+  font-family: titular, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+  .navigation li {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .social {
+    padding-left: 25%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobbtn {
+    display: block;
+  }
+
+  .rhealogo {
+    display: none;
+  }
+}
+form {
+  display: grid;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    display: grid;
+  }
+
+  .info {
+    display: grid;
+  }
+}

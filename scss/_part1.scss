@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: $primary-size;
+}
+
+.rhealogo {
+    max-height: 2em + $math-change;
+    margin-left: 3em;
+}
+
+.rhealogo:hover {
+    opacity: $math-change;
+}
+
+h1,
+h2,
+h3 {
+    @if $primary-font-color==#707070 {
+        @include font-rule2;
+    }
+
+    @else {
+        @include font-rule1;
+    }
+}
+
+h1 {
+    font-size: $secondary-size;
+    padding-left: $primary-size;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: $secondary-size;
+    text-align: center;
+}
+
+
+p {
+   font-family: ivymode, sans-serif;
+   font-weight: 200;
+   font-style: normal;
+   }
+
+nav {
+    ul {
+        list-style: none;
+        padding-right: $secondary-size;
+    }
+
+    li {
+        margin: .60em;
+        display: inline-block;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: $primary-font-color;
+    }
+
+    /*math*/
+    img {
+        max-height: 1em + $math-change;
+    }
+}
+
+.navigation a:hover {
+    color: #0F7A6A;
+}
+
+.current {
+    color: $secondary-color;
+    @include font-rule1;
+    font-size: .95em;
+}
+
+
+.social a:hover {
+    opacity: $math-change;
+}
+
+

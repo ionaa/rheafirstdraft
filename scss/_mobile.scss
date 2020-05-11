@@ -1,0 +1,25 @@
+.mobilemenu {
+    display: none;
+    padding-left: 2em;
+
+    ul {
+        list-style: none;
+        padding-right: 2em;
+    }
+
+    li {
+        margin: 0.6em;
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+        color: #575757;
+    }
+
+}
+
+.mobbtn {
+    display: none;
+    padding-left: 1em;
+}

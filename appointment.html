@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rhea Appointment</title>
+    <link href="css/rheastyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/itx4sak.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/rhea.png" alt="rhea spa logo" class="rhealogo"></a>
+        <h1>RHEA WELLNESS & SPA</h1>
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="treatments.html">TREATMENTS</a>
+                </li>
+                <li>
+                    <a href="appointment.html" class="current">BOOK APPOINTMENT</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="social">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+                </li>
+            </ul>
+        </nav>
+        <div id="Mobilemenu" class="mobilemenu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">HOME</a>
+            <a href="treatments.html">TREATMENTS</a>
+            <a href="appointment.html" class="current">BOOK APPOINTMENT</a>
+        </div>
+        <div id="mbmain">
+            <button id="Mobbtn" class="mobbtn" onclick="openNav()"> <img src="images/collapsemenu.png" alt="Collapse menu button."></button>
+        </div>
+    </header>
+    <div class="wrapper2">
+        <div class="spaform">
+            <h2 class="appheader">Book Your Appointment</h2>
+            <form name="myform" class="myform">
+                <input type="text" name="name" class="formname" id="name" placeholder="Full Name" />
+                <p id="error"></p>
+                <input type="email" name="email" class="formemail" id="formemail" placeholder="Email" />
+                <p id="errormessage"></p>
+                <input type="text" name="phone" class="formphone" id="formphone" placeholder="Phone" />
+                <select id="treatments" name="treatments">
+                    <option value="manicure">Manicure</option>
+                    <option value="pedicure">Pedicure</option>
+                    <option value="facial">Facial</option>
+                    <option value="Massage">Massage</option>
+                </select>
+                <select id="date" name="date">
+                    <option value="sunday">Sunday</option>
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="saturday">Saturday</option>
+                </select>
+                <select id="time" name="time">
+                    <option value="8am">8am</option>
+                    <option value="9am">9am</option>
+                    <option value="10am">10am</option>
+                    <option value="11am">11am</option>
+                    <option value="12pm">12pm</option>
+                    <option value="1pm">1pm</option>
+                    <option value="2pm">2pm</option>
+                    <option value="3pm">3pm</option>
+                    <option value="4pm">4pm</option>
+                    <option value="5pm">5pm</option>
+                    <option value="6pm">6pm</option>
+                    <option value="7pm">7pm</option>
+                </select>
+                <input type="submit" value="Book Appointment" id="submit" onclick="formValidation()" />
+            </form>
+            <p id="appconfirm"></p>
+        </div>
+    </div>
+    <div class="info">
+        <div>
+            <h3>Location</h3>
+            <p>189 Eucalyptus Road Madeup Town CA 09876 </p>
+        </div>
+        <div>
+            <h3>Spa Hours</h3>
+            <p>Monday - Thursday: 8am - 7pm</p>
+            <p>Friday - Sunday: 8am - 4pm</p>
+        </div>
+        <div>
+            <h3>Contact Information</h3>
+            <p>Phone: 123-456-7891</p>
+            <p>Email: rheafakespa@fake.com</p>
+        </div>
+        <div>
+            <h3>Careers</h3>
+            <p>We are always looking for talented individuals to join our team. We look forward to hearing from you.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Instagram, Facebook and Twitter Icon made by Pixel perfect from www.flaticon.com</p>
+        <h3>©Site created by Iona Alvarez</h3>
+    </footer>
+    <script src="js/rhea.js"></script>
+    <script src="js/rheaform.js"></script>
+</body>
+
+</html>
